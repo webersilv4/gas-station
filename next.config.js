@@ -4,7 +4,7 @@ module.exports = {
         return [
           {
             source: '/api/:path*',
-            destination: 'https://gas-station-smoky.vercel.app/api/*',
+            destination: 'https://gas-station-smoky.vercel.app/api/:path*',
           },
         ]
       },
