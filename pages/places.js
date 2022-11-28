@@ -19,7 +19,7 @@ const SearchHotelsGoogleApi = () => {
 
         async function fetchData() {
             try {
-                const res = await axios.get(`http://localhost:3000/api/hello?location=${lat},${lng}`);
+                const res = await axios.get(`${origin}/api/hello?location=${lat},${lng}`);
                 setLocations(res.data);
             } catch (err) {
                 console.log(err);
