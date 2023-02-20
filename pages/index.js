@@ -19,7 +19,7 @@ const Page = () => {
                     lat: position.coords.latitude,
                     lng: position.coords.longitude
                 });
-                console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
+                console.log(process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY);
             }, (err) => {
                 console.log(err.message);
             });
