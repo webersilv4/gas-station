@@ -39,7 +39,7 @@ const SearchHotelsGoogleApi = () => {
 mas está chave já foi configurada no google e 
 somente está aplicação tem acesso*/}
             <LoadScript
-                googleMapsApiKey='AIzaSyBXjOchbRJ8GO8RYOUyCnNDPxclQbFzPv4'>
+                googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
                 <GoogleMap
                     mapContainerStyle={{ height: "100vh", width: "100%" }}
                     zoom={14}
