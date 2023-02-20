@@ -67,7 +67,7 @@ const Page = () => {
 mas está chave já foi configurada no google e 
 somente está aplicação tem acesso*/}
             <LoadScript
-                googleMapsApiKey={process.env.GOOGLE_MAPS_API_KEY}>
+                googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
                 <GoogleMap
                     mapContainerStyle={{ height: "70vh", width: "100%" }}
                     zoom={14}
