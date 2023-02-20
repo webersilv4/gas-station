@@ -6,6 +6,3 @@ Este projeto consiste em buscar Postos de gasolina de acordo com a localização
 
 <a href="https://gas-station-smoky.vercel.app/">Link Do Projeto</a>
 
-
-<img src="./prints/img-2.png" href="https://gas-station-smoky.vercel.app/" />
-
