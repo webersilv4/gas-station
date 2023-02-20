@@ -37,7 +37,7 @@ const Page = () => {
             </Head>
             
             <section>
-                <h1 style={{ textAlign: "center" }}>Ver Postos Disponiveis `${process.env.GOOGLE_MAPS_API_KEY}`</h1>
+                <h1 style={{ textAlign: "center" }}>Ver Postos Disponiveis</h1>
                 <Formik
                     initialValues={{
                         lat: 0,
@@ -67,7 +67,7 @@ const Page = () => {
 mas está chave já foi configurada no google e 
 somente está aplicação tem acesso*/}
             <LoadScript
-                googleMapsApiKey={process.env.GOOGLE_MAPS_API_KEY}>
+                googleMapsApiKey="AIzaSyBXjOchbRJ8GO8RYOUyCnNDPxclQbFzPv4">
                 <GoogleMap
                     mapContainerStyle={{ height: "70vh", width: "100%" }}
                     zoom={14}
