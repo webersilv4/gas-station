@@ -37,7 +37,7 @@ const Page = () => {
             </Head>
 
             <section>
-                <h1 style={{ textAlign: "center" }}>Ver hoteis disponiveis</h1>
+                <h1 style={{ textAlign: "center" }}>Ver Postos Disponiveis</h1>
                 <Formik
                     initialValues={{
                         lat: 0,
